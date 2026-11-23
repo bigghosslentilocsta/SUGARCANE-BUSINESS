@@ -1,0 +1,305 @@
+{
+  "users": [
+    {
+      "_id": "usr_owner_1",
+      "username": "owner",
+      "passwordHash": "$2b$10$lsw2kQyaecF92yj25X5Blekk15F3Jt4b1RBJtOpCToeIjUj1skELi",
+      "tokenVersion": 0,
+      "fullName": "Mallikarjuna Gowda",
+      "businessName": "Mallikarjuna Sugarcane Suppliers",
+      "role": "Managing Owner",
+      "phone": "+91 9392457024",
+      "email": "pavankumar111205@gmail.com",
+      "warehouseAddress": "Mallikarjuna Sugarcane Suppliers, Market, Tara Nagar, Lingampally, Serilingampalle (M), Telangana 500019",
+      "createdAt": "2026-07-26T10:15:00.000Z",
+      "updatedAt": "2026-11-23T07:09:50.347Z"
+    }
+  ],
+  "clients": [
+    {
+      "_id": "cli_shri_renuka",
+      "name": "Shri Renuka Agro Mills",
+      "phone": "9845011234",
+      "address": "Munavalli Sugar Belt, Belagavi District, Karnataka",
+      "createdAt": "2026-08-25T10:15:00.000Z",
+      "updatedAt": "2026-08-25T10:15:00.000Z"
+    },
+    {
+      "_id": "cli_nandi_jaggery",
+      "name": "Nandi Jaggery Works",
+      "phone": "9448122390",
+      "address": "Sankeshwar Industrial Estate, Hukkeri, Karnataka",
+      "createdAt": "2026-09-09T10:15:00.000Z",
+      "updatedAt": "2026-09-09T10:15:00.000Z"
+    },
+    {
+      "_id": "cli_krishna_distillery",
+      "name": "Krishna Valley Distilleries",
+      "phone": "9900456120",
+      "address": "Athani Highway Yard, Vijayapura Road, Karnataka",
+      "createdAt": "2026-09-24T10:15:00.000Z",
+      "updatedAt": "2026-09-24T10:15:00.000Z"
+    },
+    {
+      "_id": "cli_siddheshwar_mills",
+      "name": "Siddheshwar Co-op Sugar Unit",
+      "phone": "9741288901",
+      "address": "Gokak Falls Road, Belagavi District, Karnataka",
+      "createdAt": "2026-10-09T10:15:00.000Z",
+      "updatedAt": "2026-10-09T10:15:00.000Z"
+    },
+    {
+      "_id": "cli_cauvery_organic",
+      "name": "Cauvery Organic Khandsari",
+      "phone": "9611340982",
+      "address": "Mandya Main Road, Maddur Taluk, Karnataka",
+      "createdAt": "2026-10-24T10:15:00.000Z",
+      "updatedAt": "2026-10-24T10:15:00.000Z"
+    },
+    {
+      "_id": "cli_bhima_agro",
+      "name": "Bhima River Cane Crushers",
+      "phone": "9880715432",
+      "address": "Indi Cross, Vijayapura District, Karnataka",
+      "createdAt": "2026-11-05T10:15:00.000Z",
+      "updatedAt": "2026-11-05T10:15:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "txn_1001",
+      "clientId": "cli_shri_renuka",
+      "clientName": "Shri Renuka Agro Mills",
+      "quantity": 28.5,
+      "unit": "Tons",
+      "amount": 96900,
+      "paidAmount": 96900,
+      "status": "Paid",
+      "date": "2026-11-23T09:15:00.000Z",
+      "settledAt": "2026-11-23T11:15:00.000Z",
+      "notes": "Morning weighbridge batch #A14 — CO-86032 variety",
+      "createdAt": "2026-11-23T09:15:00.000Z",
+      "updatedAt": "2026-11-23T11:15:00.000Z"
+    },
+    {
+      "_id": "txn_1002",
+      "clientId": "cli_nandi_jaggery",
+      "clientName": "Nandi Jaggery Works",
+      "quantity": 16,
+      "unit": "Tons",
+      "amount": 54400,
+      "paidAmount": 0,
+      "status": "Not Paid",
+      "date": "2026-11-23T11:15:00.000Z",
+      "settledAt": null,
+      "notes": "Afternoon dispatch — 2 tractor-trailer loads",
+      "createdAt": "2026-11-23T11:15:00.000Z",
+      "updatedAt": "2026-11-23T11:15:00.000Z"
+    },
+    {
+      "_id": "txn_1003",
+      "clientId": "cli_siddheshwar_mills",
+      "clientName": "Siddheshwar Co-op Sugar Unit",
+      "quantity": 34.2,
+      "unit": "Tons",
+      "amount": 116280,
+      "paidAmount": 116280,
+      "status": "Paid",
+      "date": "2026-11-22T14:15:00.000Z",
+      "settledAt": "2026-11-22T17:15:00.000Z",
+      "notes": "High-brix fresh cut cane",
+      "createdAt": "2026-11-22T14:15:00.000Z",
+      "updatedAt": "2026-11-22T17:15:00.000Z"
+    },
+    {
+      "_id": "txn_1004",
+      "clientId": "cli_krishna_distillery",
+      "clientName": "Krishna Valley Distilleries",
+      "quantity": 22,
+      "unit": "Tons",
+      "amount": 74800,
+      "paidAmount": 0,
+      "status": "Not Paid",
+      "date": "2026-11-21T10:15:00.000Z",
+      "settledAt": null,
+      "notes": "7-day credit terms approved",
+      "createdAt": "2026-11-21T10:15:00.000Z",
+      "updatedAt": "2026-11-21T10:15:00.000Z"
+    },
+    {
+      "_id": "txn_1005",
+      "clientId": "cli_cauvery_organic",
+      "clientName": "Cauvery Organic Khandsari",
+      "quantity": 19.5,
+      "unit": "Tons",
+      "amount": 68250,
+      "paidAmount": 68250,
+      "status": "Paid",
+      "date": "2026-11-20T15:15:00.000Z",
+      "settledAt": "2026-11-21T12:15:00.000Z",
+      "notes": "Clean stripped cane stalks",
+      "createdAt": "2026-11-20T15:15:00.000Z",
+      "updatedAt": "2026-11-21T12:15:00.000Z"
+    },
+    {
+      "_id": "txn_1006",
+      "clientId": "cli_bhima_agro",
+      "clientName": "Bhima River Cane Crushers",
+      "quantity": 25,
+      "unit": "Tons",
+      "amount": 85000,
+      "paidAmount": 0,
+      "status": "Not Paid",
+      "date": "2026-11-18T09:15:00.000Z",
+      "settledAt": null,
+      "notes": "Gate receipt #409",
+      "createdAt": "2026-11-18T09:15:00.000Z",
+      "updatedAt": "2026-11-18T09:15:00.000Z"
+    },
+    {
+      "_id": "txn_1007",
+      "clientId": "cli_shri_renuka",
+      "clientName": "Shri Renuka Agro Mills",
+      "quantity": 31,
+      "unit": "Tons",
+      "amount": 105400,
+      "paidAmount": 105400,
+      "status": "Paid",
+      "date": "2026-11-16T13:15:00.000Z",
+      "settledAt": "2026-11-17T16:15:00.000Z",
+      "notes": "Weekly contract lot #2",
+      "createdAt": "2026-11-16T13:15:00.000Z",
+      "updatedAt": "2026-11-17T16:15:00.000Z"
+    },
+    {
+      "_id": "txn_1008",
+      "clientId": "cli_nandi_jaggery",
+      "clientName": "Nandi Jaggery Works",
+      "quantity": 14.5,
+      "unit": "Tons",
+      "amount": 49300,
+      "paidAmount": 49300,
+      "status": "Paid",
+      "date": "2026-11-13T11:15:00.000Z",
+      "settledAt": "2026-11-14T10:15:00.000Z",
+      "notes": "Settled via RTGS",
+      "createdAt": "2026-11-13T11:15:00.000Z",
+      "updatedAt": "2026-11-14T10:15:00.000Z"
+    }
+  ],
+  "expenditures": [
+    {
+      "_id": "exp_2001",
+      "date": "2026-11-23T10:15:00.000Z",
+      "truckNumber": "KA-22-C-4821",
+      "driverName": "Basavaraj Patil",
+      "description": "Warehouse unloading & cane harvest haulage (28.5 Tons)",
+      "amountPaid": 14500,
+      "createdAt": "2026-11-23T10:15:00.000Z",
+      "updatedAt": "2026-11-23T10:15:00.000Z"
+    },
+    {
+      "_id": "exp_2002",
+      "date": "2026-11-22T15:15:00.000Z",
+      "truckNumber": "KA-22-B-9104",
+      "driverName": "Ramesh Naik",
+      "description": "Diesel advance & unloading labour payout at Yard 2",
+      "amountPaid": 18200,
+      "createdAt": "2026-11-22T15:15:00.000Z",
+      "updatedAt": "2026-11-22T15:15:00.000Z"
+    },
+    {
+      "_id": "exp_2003",
+      "date": "2026-11-21T16:15:00.000Z",
+      "truckNumber": "MH-09-EM-3318",
+      "driverName": "Shankar Jadhav",
+      "description": "Inter-district freight & weighbridge slip charges",
+      "amountPaid": 12800,
+      "createdAt": "2026-11-21T16:15:00.000Z",
+      "updatedAt": "2026-11-21T16:15:00.000Z"
+    },
+    {
+      "_id": "exp_2004",
+      "date": "2026-11-19T12:15:00.000Z",
+      "truckNumber": "KA-28-A-7720",
+      "driverName": "Prakash Kulkarni",
+      "description": "Night shift loader crew & tractor trip settlement",
+      "amountPaid": 9600,
+      "createdAt": "2026-11-19T12:15:00.000Z",
+      "updatedAt": "2026-11-19T12:15:00.000Z"
+    },
+    {
+      "_id": "exp_2005",
+      "date": "2026-11-16T11:15:00.000Z",
+      "truckNumber": "KA-22-D-6055",
+      "driverName": "Mahesh Desai",
+      "description": "Full truckload freight payout — Athani route",
+      "amountPaid": 15400,
+      "createdAt": "2026-11-16T11:15:00.000Z",
+      "updatedAt": "2026-11-16T11:15:00.000Z"
+    }
+  ],
+  "carouselImages": [
+    {
+      "_id": "img_seed_1",
+      "url": "/assets/aistudio/image_5fcf53d7.png",
+      "publicId": "seed:depot_shed",
+      "caption": "Covered Depot Stock — Clean Bundled Sugarcane Ready for Dispatch",
+      "captionTe": "డిపో స్టాక్ — పంపిణీకి సిద్ధంగా ఉన్న శుభ్రమైన చెరకు కట్టలు",
+      "captionHi": "डिपो स्टॉक — डिस्पैच के लिए तैयार साफ और बंधे हुए गन्ने के बंडल",
+      "uploadedAt": "2026-11-23T09:15:00.000Z",
+      "createdAt": "2026-11-23T09:15:00.000Z"
+    },
+    {
+      "_id": "img_seed_2",
+      "url": "/assets/aistudio/image_6b0fe2f5.png",
+      "publicId": "seed:field_check",
+      "caption": "Direct Field Inspection — Checking Stalk Height & Sweetness Before Harvest",
+      "captionTe": "పొలంలో ప్రత్యక్ష తనిఖీ — కోతకు ముందు గడ ఎత్తు & తీపి పరిశీలన",
+      "captionHi": "खेत में सीधी जांच — कटाई से पहले गन्ने की ऊंचाई और मिठास की परख",
+      "uploadedAt": "2026-11-22T10:15:00.000Z",
+      "createdAt": "2026-11-22T10:15:00.000Z"
+    },
+    {
+      "_id": "img_seed_3",
+      "url": "/assets/aistudio/image_535ce9fa.png",
+      "publicId": "seed:warehouse_stack",
+      "caption": "Bulk Warehouse Stack — Year-Round 12-Month Supply Reserve",
+      "captionTe": "బల్క్ గోదాము నిల్వ — ఏడాది పొడవునా 12 నెలల సరఫరా రిజర్వ్",
+      "captionHi": "थोक गोदाम स्टॉक — पूरे 12 महीने सप्लाई के लिए सुरक्षित भंडार",
+      "uploadedAt": "2026-11-21T11:15:00.000Z",
+      "createdAt": "2026-11-21T11:15:00.000Z"
+    },
+    {
+      "_id": "img_seed_4",
+      "url": "/assets/aistudio/image_c0dbed69.png",
+      "publicId": "seed:fresh_stalks",
+      "caption": "Freshly Cut Golden-Green Cane Selected from Maharashtra & Karnataka Farms",
+      "captionTe": "మహారాష్ట్ర & కర్ణాటక పొలాల నుండి తాజాగా కోసిన బంగారు-పచ్చ చెరకు",
+      "captionHi": "महाराष्ट्र और कर्नाटक के खेतों से ताज़ा कटा सुनहरा-हरा गन्ना",
+      "uploadedAt": "2026-11-20T12:15:00.000Z",
+      "createdAt": "2026-11-20T12:15:00.000Z"
+    },
+    {
+      "_id": "img_seed_5",
+      "url": "/assets/aistudio/image_0c3698c9.png",
+      "publicId": "seed:local_delivery",
+      "caption": "Trimmed High-Sweetness Cane Loaded for Customer Unit Delivery",
+      "captionTe": "వినియోగదారుల యూనిట్లకు పంపడానికి సిద్ధం చేసిన తియ్యని చెరకు",
+      "captionHi": "ग्राहक यूनिट डिलीवरी के लिए लोड किया गया छिला हुआ मीठा गन्ना",
+      "uploadedAt": "2026-11-19T14:15:00.000Z",
+      "createdAt": "2026-11-19T14:15:00.000Z"
+    },
+    {
+      "_id": "img_seed_6",
+      "url": "/assets/aistudio/image_ae3db5ef.png",
+      "publicId": "seed:market_yard",
+      "caption": "Wholesale Market Yard Supply — Supporting 50+ Active & 100+ Seasonal Units",
+      "captionTe": "మార్కెట్ యార్డ్ హోల్‌సేల్ సరఫరా — 50+ యాక్టివ్ & 100+ సీజనల్ యూనిట్లకు సేవ",
+      "captionHi": "थोक मंडी यार्ड सप्लाई — 50+ सक्रिय और 100+ सीज़नल यूनिट्स की सेवा",
+      "uploadedAt": "2026-11-18T11:15:00.000Z",
+      "createdAt": "2026-11-18T11:15:00.000Z"
+    }
+  ],
+  "inquiries": []
+}

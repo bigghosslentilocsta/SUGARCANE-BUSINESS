@@ -1,0 +1,6 @@
+{
+  "name": "Mallikarjuna Sugarcane Suppliers",
+  "description": "Operations portal and public showcase for Mallikarjuna Sugarcane Suppliers, featuring client ledger management, truck expenditure tracking, and dynamic photo gallery management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
